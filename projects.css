@@ -95,12 +95,30 @@ nav ul li a:hover {
 }
 
 .project-card {
+  display: flex;
   background-color: #1a2c40;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s;
+  gap: 20px; /* spacing between image and text */
+  align-items: flex-start;
 }
+
+.project-card img {
+  width: 150px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #0d1b2a;
+}
+
+.project-card div {
+  flex: 1;
+}
+
+
+
 
 .project-card:hover {
   transform: translateY(-5px);
