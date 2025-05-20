@@ -1,74 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects - Fardin</title>
+    <link rel="stylesheet" href="projects.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Projects - Fardin</title>
-  <link rel="stylesheet" href="projects.css">
-</head>
+  <body>
+    <header>
+      <div class="logo">FK</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+          <li><a href="about.html">👤 About Me</a></li>
+          <li><a href="contact.html">📞 Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <div class="logo">FK</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">🏠 Home</a></li>
-        <li><a href="about.html">👤 About Me</a></li>
-        <li><a href="contact.html">📞 Contact Me</a></li>
-      </ul>
-    </nav>
-  </header>
+    <section class="projects">
+      <h1>My Projects</h1>
+      <p>Here are some of the projects I've worked on.</p>
 
-  <section class="projects">
-    <h1>My Projects</h1>
-    <p>Here are some of the projects I've worked on.</p>
-
-    <div class="projects-grid">
       <div class="project-card">
-        <img src="images/project1.jpg" alt="Project 1">
+        <div class="slideshow-container">
+          <a href="images/project3_1.png" class="lightbox">
+            <img
+              src="images/project3_1.png"
+              class="slide"
+              alt="Project 3 Image 1"
+            />
+          </a>
+          <a href="images/project3_2.png" class="lightbox">
+            <img
+              src="images/project3_2.png"
+              class="slide"
+              alt="Project 3 Image 2"
+              style="display: none"
+            />
+          </a>
+          <a href="images/project3_3.png" class="lightbox">
+            <img
+              src="images/project3_3.png"
+              class="slide"
+              alt="Project 3 Image 3"
+              style="display: none"
+            />
+          </a>
+          <a href="images/project3_4.png" class="lightbox">
+            <img
+              src="images/project3_4.png"
+              class="slide"
+              alt="Project 4 Image 4"
+              style="display: none"
+            />
+          </a>
+          <a href="images/project3_5.png" class="lightbox">
+            <img
+              src="images/project3_5.png"
+              class="slide"
+              alt="Project 5 Image 5"
+              style="display: none"
+            />
+          </a>
+          <a href="images/project3_6.png" class="lightbox">
+            <img
+              src="images/project3_6.png"
+              class="slide"
+              alt="Project 5 Image 5"
+              style="display: none"
+            />
+          </a>
+        </div>
         <div>
-          <h3>Space-shooter</h3>
-          <p>A game using JAVA</p>
-          <p><strong>Tech:</strong> Java</p>
-          <a href="https://github.com/Fardin4585/Space-shooter" target="_blank">View on GitHub</a>
+          <h3>Meeting Logger</h3>
+          <p>MeetLog is a Django web application designed to digitally manage and document meeting minutes. It allows users to record meeting details, categorize them, search past entries, and download professional PDF summaries with branding and discussion logs.</p>
+          <p><strong>Tech:</strong>Python Django, HTML, CSS, JavaScript</p>
+          <a href="https://github.com/MRSHAKILS/meeting_minutes" target="_blank"
+            >View on GitHub</a
+          >
         </div>
       </div>
 
+      <div class="projects-grid">
+        <div class="project-card">
+          <a href="images/project1.jpg" class="lightbox">
+            <img src="images/project1.jpg" alt="Project 1" />
+          </a>
 
-      <div class="project-card">
-        <img src="images/project2.png" alt="Project 2">
-        <div>
-          <h3>Personal Portfolio</h3>
-          <p>A responsive portfolio website to showcase my resume, projects, and contact info.</p>
-          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-          <a href="https://github.com/Fardin4585/portfolio" target="_blank">View on GitHub</a>
+          <div>
+            <h3>Space-shooter</h3>
+            <p>A game using JAVA</p>
+            <p><strong>Tech:</strong> Java</p>
+            <a
+              href="https://github.com/Fardin4585/Space-shooter"
+              target="_blank"
+              >View on GitHub</a
+            >
+          </div>
         </div>
-      </div>
 
-      <div class="project-card">
-        <img src="images/project3.png" alt="Project 2">
-        <div>
-          <h3>Coming Soon</h3>
-          <p>Details will be given</p>
-          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-          <a href="https://github.com/Fardin4585/portfolio" target="_blank">View on GitHub</a>
+        <div class="project-card">
+          <a href="images/project2.png" class="lightbox">
+          <img src="images/project2.png" alt="Project 2" />
+          </a>
+          <div>
+            <h3>Personal Portfolio</h3>
+            <p>
+              A responsive portfolio website to showcase my resume, projects,
+              and contact info.
+            </p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/Fardin4585/portfolio" target="_blank"
+              >View on GitHub</a
+            >
+          </div>
         </div>
-      </div>
 
-      <div class="project-card">
-        <img src="images/project4.png" alt="Project 2">
-        <div>
-          <h3>Coming Soon</h3>
-          <p>Details will be given</p>
-          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-          <a href="https://github.com/Fardin4585/portfolio" target="_blank">View on GitHub</a>
+        <div class="project-card">
+          <img src="images/project4.png" alt="Project 2" />
+          <div>
+            <h3>Coming Soon</h3>
+            <p>Details will be given</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/Fardin4585/portfolio" target="_blank"
+              >View on GitHub</a
+            >
+          </div>
         </div>
-      </div>
 
-      <!-- Add more project cards as needed -->
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Lightbox functionality
+        const lightboxLinks = document.querySelectorAll(".lightbox");
+        const overlay = document.getElementById("lightbox-overlay");
+        const overlayImg = document.getElementById("lightbox-img");
+        const closeBtn = document.querySelector(".close-btn");
+
+        lightboxLinks.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            overlayImg.src = this.href;
+            overlay.style.display = "flex";
+          });
+        });
+
+        closeBtn.addEventListener("click", () => {
+          overlay.style.display = "none";
+          overlayImg.src = "";
+        });
+
+        overlay.addEventListener("click", (e) => {
+          if (e.target === overlay) {
+            overlay.style.display = "none";
+            overlayImg.src = "";
+          }
+        });
+
+        // Slideshow functionality
+        let slideIndex = 0;
+        const slides = document.querySelectorAll(".slideshow-container .slide");
+
+        function showSlides() {
+          slides.forEach((slide, i) => {
+            slide.style.display = i === slideIndex ? "block" : "none";
+          });
+          slideIndex = (slideIndex + 1) % slides.length;
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+
+        if (slides.length > 0) {
+          showSlides();
+        }
+      });
+    </script>
+
+    <div id="lightbox-overlay" class="lightbox-overlay" style="display: none">
+      <span class="close-btn">&times;</span>
+      <img id="lightbox-img" src="" alt="Full Image" />
     </div>
-  </section>
-</body>
-
+  </body>
 </html>
